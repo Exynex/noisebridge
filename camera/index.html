@@ -13,6 +13,9 @@
    <meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
    <link rel="stylesheet" type="text/css" href="../rec/style.css" />
    <script src="lib/processing.js"></script>
+   
+   <script src="http://www.nihilogic.dk/labs/canvas2image/canvas2image.js"></script>
+   <script src="http://www.nihilogic.dk/labs/canvas2image/base64.js"></script>
    <style type="text/css">
 #webcam, #canvas {
 	width: 320px;
@@ -125,7 +128,6 @@ object {
 
 
 <script type="text/javascript">
-
 var pos = 0;
 var ctx = null;
 var cam = null;
@@ -359,7 +361,6 @@ window.addEventListener("resize", function() {
 }, false);
 
 
-/*
 var window = window.open();
 window.document.write('<img src="'+dataURL+'"/>');
 
@@ -367,7 +368,7 @@ $('a.my-link').click(function(){
   open().document.write('<img src="'+dataURL+'"/>');
   return false;
 });
-*/
+
 
 </script>
 </div>
