@@ -12,7 +12,6 @@
    
    <meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
    <link rel="stylesheet" type="text/css" href="../rec/style.css" />
-   <script src="http://code.jquery.com/jquery-latest.js"></script>
    <script src="lib/processing.js"></script>
    <style type="text/css">
 #webcam, #canvas {
@@ -98,13 +97,6 @@ object {
 </head>  
 <!--Body-->
 <body style="margin: 0px;">
-
- <!--SOME EPTY SPACE-->
- <div  align="center" style="padding-top:150px;" id="iconhome">
-  </div>
-  <!--SOME EMPTY SPACE ENDS-->
-
-
 <div align="center" > <div id="wrap">
 
 	
@@ -115,7 +107,6 @@ object {
 	<section>
 
 <p style="font-size:30px;">This only works only with Chrome!</p>
-<p>Take a picture!! :)</p>
 <div id="webcam">
 <!--	<img src="http://exynex.github.com/camera/img/antenna.png" alt="" />-->
 	<span>EXYNEX</span>
@@ -124,7 +115,7 @@ object {
 </div>
 
 <p style="width:360px;text-align:center; ">
-<a href="javascript:webcam.capture();changeFilter();void(0);"><img src="http://exynex.github.com/files/img/camera.png"></img></a> 
+<a href="javascript:webcam.capture();changeFilter();void(0);">Take a picture!</a> 
 <!--<a href="javascript:webcam.capture(3);changeFilter();void(0);"> <img width="35px" height="35px;" src="http://exynex.github.com/files/img/clock.png"></img></a>
 -->
 </p>
@@ -164,7 +155,7 @@ jQuery("#webcam").webcam({
 	width: 320,
 	height: 240,
 	mode: "callback",
-	swffile: "http://exynex.github.com/camera/jQuery-webcam/jscam_canvas_only.swf",
+	swffile: "jQuery-webcam/jscam_canvas_only.swf",
 
 	onTick: function(remain) {
 
@@ -379,20 +370,8 @@ $('a.my-link').click(function(){
 */
 
 </script>
-
-
 </div>
-
-
 <div>
-<!--
-<a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAYAAABxLb1rAAADJUlEQVR4nO3UMQEAAAiAMPuX1hgebAm4mAWImu8AgC8GCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkGWAQJYBAlkGCGQZIJBlgECWAQJZBghkGSCQZYBAlgECWQYIZBkgkHVa/ZYGT9KYyQAAAABJRU5ErkJggg==">
-Image
-</a>
-
--->
 </div>
-
 </body>
-
 <html>
